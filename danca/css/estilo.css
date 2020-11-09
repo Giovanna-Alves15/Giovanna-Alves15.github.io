@@ -1,0 +1,96 @@
+html{
+	scroll-behavior: smooth;
+}
+.gradiente{
+  background-image: linear-gradient(to right,#CD5C5C,#FFB6C1);
+}
+.naoentra{
+	margin-top: 5%;
+}
+.centro{
+	text-align: center;
+}
+#sobre{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.linha{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.ano{
+	background-image: linear-gradient(to right,#CD5C5C,#F08080,#FFB6C1);
+	border-radius: 50%;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 700;
+	margin-bottom: 2vh;
+}
+.fundo-imagem{
+	background-image: url(../img/teatro3.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+}
+.cor{
+	text-align: center;
+	color: #B22222;
+	margin-top: 10px;
+	text-shadow: 0.1em 0.1em #000000;
+}
+.counts{
+	padding: 1% 0;
+}
+.counts .count-box{
+	width: 100%;
+	text-align: center;
+}
+.counts .count-box span{
+	font-size: 48px;
+	color: #FFDAB9;
+	line-height: 48px;
+	display: block;
+	font-weight: 700;
+	margin-left: 80px;
+	margin:auto;
+}
+.counts .count-box p{
+	padding: 2px 0 0 0;
+	font-family: 'Goldman', cursiva, sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #B22222;
+	text-shadow: 0.1em 0.1em #000000;
+}
+.tabela{
+	padding-top: 2%;
+}
+table, th, td{
+	border: 7px groove #dc3545;
+	text-align: center;
+	width: 100%;
+}
+.letra{
+	font-size: 17px;
+}
+table {
+	border-collapse: collapse;
+	width: 100%
+}
+th, td{
+	padding: 15px;
+	border-radius: 30%;
+}
+td:hover {
+	background-color: #FFC0CB ;
+}
+tr:nth-child(even) {
+	background-color: #FFF0F5;
+}
+.centro{
+	text-align: center;
+}
