@@ -10,11 +10,17 @@ html{
 .centro{
 	text-align: center;
 }
-#sobre{
+#tango , #classic, #hiphop{
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+.letra{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 700;
 }
 .linha{
 	margin-left: auto;
@@ -74,9 +80,6 @@ table, th, td{
 	text-align: center;
 	width: 100%;
 }
-.letra{
-	font-size: 17px;
-}
 table {
 	border-collapse: collapse;
 	width: 100%
@@ -93,4 +96,40 @@ tr:nth-child(even) {
 }
 .centro{
 	text-align: center;
+}
+.texto:hover{
+    box-shadow: inset 0 0 0 200px #CD5C5C;
+}
+.texto{
+	background-image: linear-gradient(to right,#CD5C5C,#F08080,#FFB6C1);
+}
+.contato .info{
+	padding: 30px;
+	font-size: 100%;
+	background-image: linear-gradient(to right,#CD5C5C,#F08080,#FFB6C1);
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+	border-radius:40%;
+}
+.contato .info h4{
+	padding:0 0 0 60px;
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+/*
+ a {
+    color: ;
+}
+*/
+a:link {
+ color: #000000;
+}
+
+a:hover {
+ color: #B22222;
+}
+.rodape{
+	background: linear-gradient(to right,#CD5C5C,#F08080,#FFB6C1);
+	padding: 2%;
+	font-weight: 15%;
 }
