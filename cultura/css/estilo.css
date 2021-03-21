@@ -1,0 +1,71 @@
+html{
+	scroll-behavior: smooth;
+}
+.gradiente{
+	background-image: linear-gradient(to right, #40E0D0, #66CDAA, #7FFFD4) 
+}
+#sobre{
+	width:83%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	background-image: linear-gradient(to right, #7FFFD4, #66CDAA, #40E0D0) 
+}
+#image{
+	width:83%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-image: linear-gradient(to right, #7FFFD4, #66CDAA, #40E0D0) 
+}
+#audio{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.contato .info h4{
+	padding:0 0 0 60px;
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+p{
+	color: #000000;
+	font-family: arial;
+}
+.rodape{
+	background: linear-gradient(to right,#7FFFD4, #66CDAA, #40E0D0);
+	padding: 1%;
+	font-weight: 15%;
+	text-align: center;
+}
+.contato .info{
+	padding: 30px;
+	font-size: 100%;
+	background-image: linear-gradient(to right,#7FFFD4, #66CDAA, #40E0D0);
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+	border-radius:40%;
+}
+.contato .info h4{
+	padding:0 0 0 60px;
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.centro{
+	text-align: center;
+}
+.cor{
+	text-align: center;
+	color: #008B8B;
+	margin-top: 10px;
+	text-shadow: 0.1em 0.1em #000000;
+}
+a{
+	color: #008080;
+	text-decoration: none;
+}
+a:hover{
+	color: #5F9EA0;
+}
